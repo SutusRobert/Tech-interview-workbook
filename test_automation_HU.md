@@ -260,3 +260,44 @@ Adatvezérelt tesztelés: A tesztelés különböző adatokat használ ugyanazon
 
 Miért hasznos?: Növeli a tesztek hatékonyságát és lefedettségét anélkül, hogy új teszteseteket kellene írni.
 
+#### ✅Mi a különbség a CI és CD között?
+CI (Continuous Integration): Gyakori kódösszevonás, automatikus build és tesztelés.
+
+CD (Continuous Delivery/Deployment): A kód automatikus szállítása tesztelésre vagy akár éles rendszerbe.
+
+
+
+#### ✅ Írj le egy Continuous Delivery folyamatot!
+Kód módosítása a fejlesztő által
+
+Push a verziókezelőbe (pl. Git)
+
+Automatikus build és teszt
+
+Staging környezetbe deploy
+
+Manuális jóváhagyással éles deploy
+
+
+
+#### ✅ Hasonlítsd össze két népszerű CI rendszert, ezek közül az egyik legyen a Jenkins!
+Jellemző	    Jenkins	                    GitHub Actions
+Telepítés	    Lokálisan vagy szerveren	Felhőalapú (GitHub-on belül)
+Konfiguráció	XML vagy Jenkinsfile        YAML fájl a repo-ban
+Bővíthetőség	Nagyon sok plugin	        Jó integráció GitHub-bal
+Használat	    Összetett, de rugalmas	    Egyszerűbb, gyorsabb indulás
+
+
+#### ✅ Mi a Docker és miért hasznos?
+
+Mi az: Platform független konténerizációs technológia.
+
+Miért hasznos: Ugyanaz a környezet fejlesztéshez és futtatáshoz, könnyű skálázás, gyors telepítés.
+
+
+
+
+
+
+
+
